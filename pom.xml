@@ -12,9 +12,9 @@
     <artifactId>JCastro</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>JCastro</name>
-    <description>Portafolio de Javier Agustin Castro</description>
+    <description>Portfolio de Javier Agustin Castro</description>
     <properties>
-        <java.version>1.8</java.version>
+        <java.version>17</java.version>
     </properties>
     <dependencies>
         <dependency>
