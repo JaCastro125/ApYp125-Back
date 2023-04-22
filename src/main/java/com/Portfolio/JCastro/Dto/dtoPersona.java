@@ -20,14 +20,12 @@ public class dtoPersona {
     @NotBlank
     private int edad;
     @NotBlank
-    private String banner;
-    @NotBlank
     private String ciudad;
     
     public dtoPersona() {
     }
 
-    public dtoPersona(String nombre, String apellido, String descripcion, String img, String email, Long celular, String titulo, int edad, String banner, String ciudad) {
+    public dtoPersona(String nombre, String apellido, String descripcion, String img, String email, Long celular, String titulo, int edad, String ciudad) {
         this.nombre = nombre;
         this.apellido = apellido;
         this.descripcion = descripcion;
@@ -36,7 +34,7 @@ public class dtoPersona {
         this.celular = celular;
         this.titulo = titulo;
         this.edad = edad;
-        this.banner = banner;
+
         this.ciudad = ciudad;
     }
 
@@ -46,14 +44,6 @@ public class dtoPersona {
 
     public void setCiudad(String ciudad) {
         this.ciudad = ciudad;
-    }
-
-    public String getBanner() {
-        return banner;
-    }
-
-    public void setBanner(String banner) {
-        this.banner = banner;
     }
 
     public String getEmail() {
@@ -87,8 +77,6 @@ public class dtoPersona {
     public void setEdad(int edad) {
         this.edad = edad;
     }
-
-    
 
     public String getNombre() {
         return nombre;

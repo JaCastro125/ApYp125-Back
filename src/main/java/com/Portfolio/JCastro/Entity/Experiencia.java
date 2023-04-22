@@ -12,17 +12,15 @@ public class Experiencia {
     private int id;
     private String nombreE;
     private String descripcionE;
-    private String imgE;
     private String periodoE;
     private String puestoE;
 
     public Experiencia() {
     }
 
-    public Experiencia(String nombreE, String descripcionE, String imgE, String periodoE, String puestoE) {
+    public Experiencia(String nombreE, String descripcionE, String periodoE, String puestoE) {
         this.nombreE = nombreE;
         this.descripcionE = descripcionE;
-        this.imgE = imgE;
         this.periodoE = periodoE;
         this.puestoE = puestoE;
     }   
@@ -37,14 +35,6 @@ public class Experiencia {
 
     public String getNombreE() {
         return nombreE;
-    }
-
-    public String getImgE() {
-        return imgE;
-    }
-
-    public void setImge(String imgE) {
-        this.imgE = imgE;
     }
 
     public String getPeriodoE() {

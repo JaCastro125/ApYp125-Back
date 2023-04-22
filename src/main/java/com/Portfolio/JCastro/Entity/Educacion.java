@@ -13,17 +13,15 @@ public class Educacion {
     private String nombreE;
     private String descripcionE;
     private String tituloE;
-    private String logoE;
     private String estadoE;
     private String periodoE;
     public Educacion() {
     }
 
-    public Educacion(String nombreE, String descripcionE, String tituloE, String logoE, String estadoE, String periodoE) {
+    public Educacion(String nombreE, String descripcionE, String tituloE, String estadoE, String periodoE) {
         this.nombreE = nombreE;
         this.descripcionE = descripcionE;
         this.tituloE = tituloE;
-        this.logoE = logoE;
         this.estadoE = estadoE;
         this.periodoE = periodoE;
     }
@@ -34,14 +32,6 @@ public class Educacion {
 
     public void setTituloE(String tituloE) {
         this.tituloE = tituloE;
-    }
-
-    public String getLogoE() {
-        return logoE;
-    }
-
-    public void setLogoE(String logoE) {
-        this.logoE = logoE;
     }
 
     public String getEstadoE() {

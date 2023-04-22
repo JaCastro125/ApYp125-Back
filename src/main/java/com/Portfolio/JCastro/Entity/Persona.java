@@ -42,12 +42,10 @@ public class Persona {
     @NotNull
     private String ciudad;
     
-    private String banner;
-    
     public Persona() {
     }
 
-    public Persona(String nombre, String apellido, String img, String descripcion, String email, Long celular, String titulo, int edad, String banner,String ciudad) {
+    public Persona(String nombre, String apellido, String img, String descripcion, String email, Long celular, String titulo, int edad, String ciudad) {
         this.nombre = nombre;
         this.apellido = apellido;
         this.img = img;
@@ -56,7 +54,6 @@ public class Persona {
         this.celular = celular;
         this.titulo = titulo;
         this.edad = edad;
-        this.banner = banner;
         this.ciudad = ciudad;
     }
 
@@ -90,14 +87,6 @@ public class Persona {
 
     public void setCelular(Long celular) {
         this.celular = celular;
-    }
-
-    public String getBanner() {
-        return banner;
-    }
-
-    public void setBanner(String banner) {
-        this.banner = banner;
     }
 
     public String getTitulo() {
